@@ -1,9 +1,10 @@
 function Footer() {
   return (
-    <footer className="bg-gray-900 text-white px-6 py-4 mt-8 border-t border-gray-700">
+    // Ajout de "mt-auto" pour qu'il se pousse vers le bas si le parent est en flex
+    <footer className="bg-gray-900 text-white px-6 py-4 mt-auto border-t border-gray-700">
       <div className="flex justify-center items-center">
-        <p className="text-sm text-center w-full break-words">
-          © 2026 Mon Portfolio
+        <p className="text-sm text-center w-full">
+          ©️ 2026 Mon Portfolio - Fait avec passion
         </p>
       </div>
     </footer>
